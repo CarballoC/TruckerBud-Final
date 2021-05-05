@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="213" height="152.535" viewBox="0 0 213 152.535">
+  <defs>
+    <filter id="Subtraction_1" x="39" y="4.996" width="134" height="109.075" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_11" x="15" y="77.076" width="40" height="30" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_11-2" x="161" y="77.076" width="40" height="30" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4" data-name="Group 4" transform="translate(-357 -507.465)">
+    <g id="Group_5" data-name="Group 5" transform="translate(-499 -127.535)">
+      <g id="Group_4-2" data-name="Group 4">
+        <g id="Group_3" data-name="Group 3">
+          <g id="Group_2" data-name="Group 2" transform="translate(872 634.076)">
+            <g id="Group_1" data-name="Group 1">
+              <g id="Group_8" data-name="Group 8">
+                <g id="Group_7" data-name="Group 7">
+                  <g id="Group_6" data-name="Group 6">
+                    <g id="Group_5-2" data-name="Group 5">
+                      <g id="Group_4-3" data-name="Group 4">
+                        <g id="Group_3-2" data-name="Group 3">
+                          <g id="Group_2-2" data-name="Group 2">
+                            <g transform="matrix(1, 0, 0, 1, -16, 0.92)" filter="url(#Subtraction_1)">
+                              <path id="Subtraction_1-2" data-name="Subtraction 1" d="M91,103.075H37a36.969,36.969,0,0,1-37-37V37A36.969,36.969,0,0,1,37,0H91a36.969,36.969,0,0,1,37,37V66.075a36.969,36.969,0,0,1-37,37ZM77.382,15.858a4.077,4.077,0,0,0-4.073,4.073V86.543a4.073,4.073,0,1,0,8.146,0V19.931a4.077,4.077,0,0,0-4.072-4.073ZM64,15.858a4.66,4.66,0,0,0-4.655,4.654V85.961a4.655,4.655,0,1,0,9.31,0V20.512A4.66,4.66,0,0,0,64,15.858Zm-13.964,0a4.66,4.66,0,0,0-4.655,4.654V85.961a4.655,4.655,0,0,0,9.31,0V20.512a4.66,4.66,0,0,0-4.655-4.654Zm-14.546,0a4.077,4.077,0,0,0-4.073,4.073V86.543a4.073,4.073,0,0,0,8.146,0V19.931a4.078,4.078,0,0,0-4.072-4.073Zm-13.963,0a4.077,4.077,0,0,0-4.073,4.073V86.543a4.073,4.073,0,0,0,8.146,0V19.931a4.077,4.077,0,0,0-4.072-4.073Zm85.6.345a3.674,3.674,0,0,0-3.719,3.62V86.787a3.72,3.72,0,0,0,7.437,0V19.823a3.674,3.674,0,0,0-3.721-3.623Zm-14.41,0a4.133,4.133,0,0,0-4.183,4.072v66.06a4.185,4.185,0,0,0,8.366,0V20.274A4.133,4.133,0,0,0,92.714,16.2Z" transform="translate(42 6)" fill="#1799e4"/>
+                            </g>
+                            <g id="Group_1-2" data-name="Group 1" transform="translate(59.326)">
+                              <rect id="Rectangle_8" data-name="Rectangle 8" width="7" height="29" rx="3.5" transform="translate(27.097 0.924)" fill="#fc8106"/>
+                              <rect id="Rectangle_8-2" data-name="Rectangle 8" width="7" height="43" rx="3.5" transform="translate(52.097 0.924) rotate(90)" fill="#fc8106"/>
+                            </g>
+                            <g transform="matrix(1, 0, 0, 1, -16, 0.92)" filter="url(#Rectangle_11)">
+                              <g id="Rectangle_11-3" data-name="Rectangle 11" transform="translate(16 78.08)" fill="none" stroke="#1799e4" stroke-width="5">
+                                <rect width="34" height="24" rx="10" stroke="none"/>
+                                <rect x="2.5" y="2.5" width="29" height="19" rx="7.5" fill="none"/>
+                              </g>
+                            </g>
+                            <g transform="matrix(1, 0, 0, 1, -16, 0.92)" filter="url(#Rectangle_11-2)">
+                              <g id="Rectangle_11-4" data-name="Rectangle 11" transform="translate(162 78.08)" fill="none" stroke="#1799e4" stroke-width="5">
+                                <rect width="34" height="24" rx="10" stroke="none"/>
+                                <rect x="2.5" y="2.5" width="29" height="19" rx="7.5" fill="none"/>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_3-3" data-name="Group 3">
+      <g id="Group_2-3" data-name="Group 2">
+        <g id="Group_1-3" data-name="Group 1">
+          <path id="Subtraction_2" data-name="Subtraction 2" d="M213,39H0V0H213V39ZM8.519,2.127V36.872H204.481V2.127Z" transform="translate(357 620)" fill="#fc8106"/>
+          <text id="TruckerBud" transform="translate(370 612)" fill="#1799e4" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" font-size="35" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="38">TruckerBud</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
