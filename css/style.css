@@ -4,12 +4,13 @@
   --second: #273c75;
   --footer: #788286;
   --success: #45bd32;
-  --purple: #7d29eb;
+  --purple: #2c4179;
   --error: #c23616;
-  --dark: #20033a;
+  --dark: #23093a;
   --darkdark: #1e2433;
   --black: #000;
   --orange: #fc8106;
+  --lighter: #575e74;
 }
 body {
   box-sizing: border-box;
@@ -51,15 +52,14 @@ a:hover {
 .background {
   background: linear-gradient(to bottom, var(--dark), var(--purple));
 }
-.background2 {
-  background: var(--dark);
-  padding: 20px;
-  border-radius: 10px;
-  color: var(--orange);
-  font-weight: bold;
-}
 .background3 {
   background-color: var(--darkdark);
+}
+.background-light {
+  background-color: var(--purple);
+}
+.background-lighter {
+  background-color: var(--lighter);
 }
 
 .contact-bg {
