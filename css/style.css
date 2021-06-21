@@ -39,6 +39,7 @@ a {
 a:hover {
   font-weight: bold;
 }
+
 .height {
   height: 90vh;
 }
@@ -47,6 +48,9 @@ a:hover {
 }
 .main50 {
   height: 50vh;
+}
+.learn-more a:hover {
+  color: var(--darkdark) !important;
 }
 
 .background {
