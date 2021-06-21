@@ -46,9 +46,9 @@ a:hover {
 .main60 {
   height: 60vh;
 }
-.main50 {
+/* .main50 {
   height: 50vh;
-}
+} */
 .learn-more a:hover {
   color: var(--darkdark) !important;
 }
