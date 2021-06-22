@@ -65,7 +65,6 @@ a:hover {
 .background-lighter {
   background-color: var(--lighter);
 }
-
 .contact-bg {
   background-color: var(--purple);
   color: var(--white);
@@ -78,6 +77,10 @@ a:hover {
   outline: none;
   background: var(--main);
 }
+.contact-btn{
+  width: 100%;
+}
+
 
 .footer {
   background-color: var(--footer);
