@@ -68,7 +68,7 @@ a:hover {
 .contact-bg {
   background-color: var(--purple);
   color: var(--white);
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .contact-purple {
   background: var(--purple);
@@ -77,13 +77,11 @@ a:hover {
   outline: none;
   background: var(--main);
 }
-.contact-btn{
+.contact-btn {
   width: 100%;
 }
-
-
 .footer {
-  background-color: var(--footer);
+  background-color: var(--main); 
 }
 .social a {
   padding-right: 20px;
