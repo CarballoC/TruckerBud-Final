@@ -80,9 +80,8 @@ a:hover {
 .contact-btn {
   width: 100%;
 }
-
 .footer {
-  background-color: var(--footer);
+  background-color: var(--main); 
 }
 .social a {
   padding-right: 20px;
