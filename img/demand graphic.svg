@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="129.5" height="124.3" viewBox="0 0 129.5 124.3">
+  <g id="Group_16" data-name="Group 16" transform="translate(-802 -162.7)">
+    <line id="Line_1" data-name="Line 1" x2="94" transform="translate(813.5 254.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+    <line id="Line_2" data-name="Line 2" y2="94" transform="translate(817.5 164.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+    <line id="Line_3" data-name="Line 3" y2="4" transform="translate(847.5 254.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+    <line id="Line_4" data-name="Line 4" y2="4" transform="translate(877.5 254.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+    <line id="Line_5" data-name="Line 5" y2="4" transform="translate(817.5 224.5) rotate(90)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+    <line id="Line_6" data-name="Line 6" y2="4" transform="translate(817.5 194.5) rotate(90)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+    <line id="Line_7" data-name="Line 7" y2="4" transform="translate(817.5 164.5) rotate(90)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+    <line id="Line_8" data-name="Line 8" y2="4" transform="translate(907.5 254.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+    <g id="Group_11" data-name="Group 11" transform="translate(488.089 -724.85)">
+      <g id="Group_12" data-name="Group 12" transform="translate(306.411 964.15)">
+        <text id="Truck_Driver" data-name="Truck Driver" transform="translate(18 42.7)" font-size="21" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Truck Drivers</tspan></text>
+      </g>
+    </g>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="4.5" cy="4.5" r="4.5" transform="translate(802 271)" fill="#273c75"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="4" height="37" transform="translate(824 218)" fill="#ec2024"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="4" height="60" transform="translate(829 195)" fill="#273c75"/>
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="4" height="37" transform="translate(834 218)" fill="#ec2024"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="4" height="60" transform="translate(839 195)" fill="#273c75"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="4" height="37" transform="translate(844 218)" fill="#ec2024"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="4" height="60" transform="translate(849 195)" fill="#273c75"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="4" height="37" transform="translate(854 218)" fill="#ec2024"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="4" height="60" transform="translate(859 195)" fill="#273c75"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="4" height="37" transform="translate(864 218)" fill="#ec2024"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="4" height="60" transform="translate(869 195)" fill="#273c75"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="4" height="37" transform="translate(874 218)" fill="#ec2024"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="4" height="60" transform="translate(879 195)" fill="#273c75"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="4" height="37" transform="translate(884 218)" fill="#ec2024"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="4" height="60" transform="translate(889 195)" fill="#273c75"/>
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="4" height="37" transform="translate(894 218)" fill="#ec2024"/>
+    <rect id="Rectangle_16" data-name="Rectangle 16" width="4" height="60" transform="translate(899 195)" fill="#273c75"/>
+    <text id="Other_Jobs" data-name="Other Jobs" transform="translate(828 184.7)" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Demand</tspan></text>
+  </g>
+</svg>

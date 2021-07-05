@@ -5,7 +5,7 @@
   --footer: #788286;
   --success: #45bd32;
   --purple: #2c4179;
-  --error: #c23616;
+  --error: #EC2024;
   --dark: #23093a;
   --darkdark: #1e2433;
   --black: #000;
@@ -22,9 +22,13 @@ body {
 .navbar-light,
 .bg-light {
   background-color: var(--dark) !important;
+  font-weight: 600;  
 }
 li {
   list-style: none;
+}
+.website-name{
+  font-weight: 700;
 }
 .font {
   color: var(--white);
@@ -43,6 +47,9 @@ a:hover {
 .height {
   height: 90vh;
 }
+.span-name{
+  color: var(--error);
+}
 .main60 {
   height: 60vh;
 }
@@ -52,8 +59,7 @@ a:hover {
 .learn-more a:hover {
   color: var(--darkdark) !important;
 }
-
-.background {
+.background {  
   background: linear-gradient(to bottom, var(--dark), var(--purple));
 }
 .background3 {
@@ -67,8 +73,7 @@ a:hover {
 }
 .contact-bg {
   background-color: var(--purple);
-  color: var(--white);
-  border-radius: 10px;
+  color: var(--white);  
 }
 .contact-purple {
   background: var(--purple);
@@ -81,7 +86,7 @@ a:hover {
   width: 100%;
 }
 .footer {
-  background-color: var(--main); 
+  background-color: var(--lighter); 
 }
 .social a {
   padding-right: 20px;
