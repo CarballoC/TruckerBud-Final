@@ -61,14 +61,14 @@ a:hover {
   position: absolute;
   z-index: 1;
 }
-.height {
-  height: 80vh;
+.height{
+  height: 90vh;
 }
 .layer{
   position: absolute;
   background-color: var(--blue);
   opacity: 0.8;
-  height: 93%;
+  height:109vh;
   width: 100%;
 }
 .sub-hero img{
