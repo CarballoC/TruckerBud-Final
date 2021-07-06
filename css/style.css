@@ -13,8 +13,7 @@
 }
 body {
   box-sizing: border-box;
-  line-height: 1.8rem;
-  /* background-color: var(--lighter);   */
+  line-height: 1.8rem;  
 }
 .disclaimer {
   font-size: 10px;
@@ -43,32 +42,33 @@ a {
 a:hover {
   font-weight: bold;
 }
-#hero{
-  background-image: url(/img/truck-3401529_1920.jpg);  
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-bottom: 10px solid var(--black);   
-}
 #hero h1{
   font-size: 80px;
 }
 #hero h5{
   font-size: 30px;  
 }
+.row-hero{
+  background-image: url(/img/truck.jpg);  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 20px solid var(--black);   
+  height: 100%;
+}
 .text{
   color: var(--white);
   position: absolute;
-  z-index: 1;
+  z-index: 1;  
 }
 .height{
   height: 90vh;
 }
 .layer{
-  position: absolute;
-  background-color: var(--blue);
+  position: absolute;  
+  background-color: var(--black);
   opacity: 0.8;
-  height: 112%;
+  height: 90%;
   width: 100%;
 }
 .sub-hero img{
@@ -82,7 +82,7 @@ a:hover {
 }
 .main{
   background-color: var(--dark);
-  color: var(--main);
+  color: var(--white);
 }
 .main i{
   font-size: 30px;
@@ -139,7 +139,7 @@ a:hover {
   background: transparent;  
 }
 .input-fields{
-  width: 60%;
+  width: 80%;
 }
 .contact-btn {
   width: 100%; 
@@ -156,7 +156,7 @@ a:hover {
 }
 .footer {
   background-color: var(--footer);
-  padding: 40px 0;    
+     
 }
 .footer h2{
   color: var(--white);
@@ -173,24 +173,21 @@ a:hover {
   }  
   .tools-list{
     border-left:0;
-  }
+  }  
 }
-
 @media (max-width: 425px) {
   #hero h1{
     font-size: 60px;
   }
   #hero h5{
     font-size: 20px;
-  }
-  
+  }  
+  .input-fields{
+    width: 100%;
+  }  
 }
 @media (max-width: 320px) {
   .sub-hero img{
     width: 80%;
-  }
-  .input-fields{
-    width: 100%;
-  }
-  
+  }  
 }
