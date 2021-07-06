@@ -1,27 +1,27 @@
 :root {
   --white: #fff;
   --main: #00a8ff;
-  --second: #273c75;
-  --footer: #788286;
+  --second: #4c5a81;  
   --success: #45bd32;
-  --purple: #2c4179;
-  --error: #EC2024;
-  --dark: #23093a;
-  --darkdark: #1e2433;
-  --black: #000;
+  --blue: #1a3379;
+  --error: #fd4144;  
+  --dark: #1e2433;
+  --black: #000; 
   --orange: #fc8106;
-  --lighter: #575e74;
+  --lighter: #f5f5f5;
+  --footer: #707070;
 }
 body {
   box-sizing: border-box;
   line-height: 1.8rem;
+  /* background-color: var(--lighter);   */
 }
 .disclaimer {
   font-size: 10px;
 }
 .navbar-light,
 .bg-light {
-  background-color: var(--dark) !important;
+  background-color: var(--black) !important;
   font-weight: 600;  
 }
 li {
@@ -43,59 +43,154 @@ a {
 a:hover {
   font-weight: bold;
 }
-
+#hero{
+  background-image: url(/img/truck-3401529_1920.jpg);  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 10px solid var(--black);   
+}
+#hero h1{
+  font-size: 80px;
+}
+#hero h5{
+  font-size: 30px;  
+}
+.text{
+  color: var(--white);
+  position: absolute;
+  z-index: 1;
+}
 .height {
-  height: 90vh;
+  height: 80vh;
 }
-.span-name{
-  color: var(--error);
-}
-.main60 {
-  height: 60vh;
-}
-/* .main50 {
-  height: 50vh;
-} */
-.learn-more a:hover {
-  color: var(--darkdark) !important;
-}
-.background {  
-  background: linear-gradient(to bottom, var(--dark), var(--purple));
-}
-.background3 {
-  background-color: var(--darkdark);
-}
-.background-light {
-  background-color: var(--purple);
-}
-.background-lighter {
-  background-color: var(--lighter);
-}
-.contact-bg {
-  background-color: var(--purple);
-  color: var(--white);  
-}
-.contact-purple {
-  background: var(--purple);
-}
-.eamil {
-  outline: none;
-  background: var(--main);
-}
-.contact-btn {
+.layer{
+  position: absolute;
+  background-color: var(--blue);
+  opacity: 0.8;
+  height: 93%;
   width: 100%;
 }
+.sub-hero img{
+  width: 60%;
+}
+.span-name{
+  color: var(--purple); 
+  border-radius: 30px;
+  padding: 0 10px;
+  font-weight: 800;
+}
+.main{
+  background-color: var(--dark);
+  color: var(--main);
+}
+.main i{
+  font-size: 30px;
+  color: var(--main);
+}
+.main a{
+  background-color: var(--second)!important; 
+  border: 0;
+  color: var(--dark)!important;
+}
+.tools h1{
+  color: #fd4144;
+  font-weight: 800;  
+}
+.card{
+  background-color: var(--white);
+  border:0;
+  border-radius: 0;  
+  padding: 0;
+}
+.card-heading{
+  background-color: var(--lighter);  
+  color: var(--second); 
+  width: 100%;
+  margin: 0;
+  padding: 20px;  
+}
+.card-body{
+  color: var(--black);
+  font-weight: 700;  
+}
+.tools-list{
+  border-left: 2px solid var(--second);
+}
+.tools button{
+  background-color: var(--blue);
+  border: 0;
+}
+.contact{
+  background-color: var(--dark);  
+  padding: 40px!important;
+  border-radius: 5px;  
+}
+.contact h3, h6{
+  color: var(--second);
+}
+.contact .form-control{
+  border-radius:0;
+  border: 0;
+  border-bottom: 2px solid var(--second);
+  width: 100%;
+}
+.input-bg {
+  background: transparent;  
+}
+.input-fields{
+  width: 60%;
+}
+.contact-btn {
+  width: 100%; 
+  background-color: var(--second); 
+  border: 0;
+  color: var(--dark);
+}
+.frequently-ask-question h2{
+  font-weight: 800!important;
+}
+.frequently-ask-question .btn{
+  background-color: var(--blue)!important;
+  border: 0;
+}
 .footer {
-  background-color: var(--lighter); 
+  background-color: var(--footer);
+  padding: 100px 0;    
 }
-.social a {
-  padding-right: 20px;
+.footer h2{
+  color: var(--black);
 }
-.social a:hover {
-  color: var(--success);
+.footer a{
+  color: var(--black)!important;
 }
-.endo-heading {
-  width: 50px;
-  padding: 10px;
-  border-radius: 100%;
+.footer i{
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .sub-hero img{
+    width: 70%;
+  }  
+  .tools-list{
+    border-left:0;
+  }
+}
+
+@media (max-width: 425px) {
+  #hero h1{
+    font-size: 60px;
+  }
+  #hero h5{
+    font-size: 20px;
+  }
+  
+}
+@media (max-width: 320px) {
+  .sub-hero img{
+    width: 80%;
+  }
+  .input-fields{
+    width: 100%;
+  }
+  
 }
