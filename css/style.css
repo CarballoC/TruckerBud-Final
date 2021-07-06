@@ -63,6 +63,13 @@ a:hover {
   position: absolute;
   z-index: 1;    
 }
+#hero i{
+  margin-top:100px;
+  color: var(--white);
+  position: absolute;
+  z-index: 1; 
+  font-size: 30px;   
+}
 .height{
   height: 90vh;
 }
