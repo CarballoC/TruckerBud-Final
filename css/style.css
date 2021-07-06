@@ -44,22 +44,24 @@ a:hover {
 }
 #hero h1{
   font-size: 80px;
+  text-shadow: 1px 2px 5px var(--black);
 }
 #hero h5{
   font-size: 30px;  
+  text-shadow: 1px 2px 5px var(--black);
 }
 .row-hero{
   background-image: url(/img/truck.jpg);  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom: 20px solid var(--black);   
+  border-bottom: 40px solid var(--black);   
   height: 100%;
 }
 .text{
   color: var(--white);
   position: absolute;
-  z-index: 1;  
+  z-index: 1;    
 }
 .height{
   height: 90vh;
@@ -185,6 +187,9 @@ a:hover {
   .input-fields{
     width: 100%;
   }  
+  .layer{
+    display: none;
+  }
 }
 @media (max-width: 320px) {
   .sub-hero img{
