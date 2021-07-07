@@ -10,6 +10,7 @@
   --orange: #fc8106;
   --lighter: #f5f5f5;
   --footer: #131212;
+  --trasparent:#01060fc7;
 }
 body {
   box-sizing: border-box;
@@ -43,6 +44,23 @@ li {
 }
 .font2 {
   color: var(--main);
+}
+.font-hero-pages{
+  color: var(--white);
+  text-shadow: 1px 2px var(--black);
+  font-weight: 800;
+  background-color: var(--trasparent);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 2px var(--white);
+}
+.background-image{
+  background-image:url(/img/truck-1181063_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  border-bottom: 10px solid var(--black);    
 }
 a {
   text-decoration: none;
@@ -172,9 +190,14 @@ a:hover {
   background-color: var(--blue)!important;
   border: 0;
 }
+.btn-tip-modal{
+  border-radius: 10px;
+  color: var(--white);
+  text-shadow: 1px 2px var(--black);  
+  background-color: var(--trasparent);   
+}
 .footer {
-  background-color: var(--footer);
-     
+  background-color: var(--footer);     
 }
 .footer h2{
   color: var(--white);
