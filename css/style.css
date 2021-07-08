@@ -13,7 +13,6 @@
   --footer: #110f0f;
   --trasparent:#1e2433bb;
 }
-
 body {
   box-sizing: border-box;
   line-height: 1.8rem;  
@@ -48,16 +47,13 @@ li {
   color: var(--main);
 }
 .font-hero-pages{
-  color: var(--white);
-  text-shadow: 1px 2px var(--black);
-  font-weight: 800;
-  background-color: var(--trasparent);
+  color: var(--white);  
+  font-weight: 700; 
   padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0px 3px 2px var(--white);
+  border-radius: 5px;  
 }
 .background-image{
-  background-image:url(/img/truck-1181063_1920.jpg);
+  background-image:url(/img/truck-1181063_1920.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -74,17 +70,18 @@ a:hover {
 #hero h1{
   font-size: 80px;
   text-shadow: 1px 2px 5px var(--black);
+  
 }
 #hero h5{
   font-size: 30px;  
   text-shadow: 1px 2px 5px var(--black);
 }
 .row-hero{
-  background-image: url(/img/truck.jpg);  
+  background-image: url(/img/truck.png);  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom: 40px solid var(--dark);   
+  border-bottom: 10px solid var(--dark);   
   height: 100%;
 }
 .text{
@@ -100,14 +97,7 @@ a:hover {
   font-size: 30px;   
 }
 .height{
-  height: 90vh;
-}
-.layer{
-  position: absolute;  
-  background-color: var(--hero);
-  opacity: 0.8;
-  height: 90%;
-  width: 100%;
+  height: 80vh;
 }
 .sub-hero img{
   width: 60%;
@@ -221,24 +211,20 @@ a:hover {
   .tools-list{
     border-left:0;
   }  
+  /* .text{
+    width:50%;
+  } */
 }
 @media (max-width: 425px) {
   #hero h1{
-    font-size: 60px;
+    font-size: 40px;
   }
   #hero h5{
     font-size: 20px;
   }  
   .input-fields{
     width: 100%;
-  }  
-  .layer{
-    display: none;
-  }  
-  .text{
-   background-color: var(--black);
-    opacity: 0.7;
-  }
+  }   
 }
 @media (max-width: 320px) {
   .sub-hero img{
