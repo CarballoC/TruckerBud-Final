@@ -95,13 +95,11 @@ a:hover {
 }
 #hero i{
   margin-top:100px;
-  color: var(--black);
+  color: var(--yellow);
   position: absolute;
   z-index: 1; 
   font-size: 30px;  
-  background-color: var(--yellow); 
-  padding: 5px 20px;
-  border-radius: 3px;
+  
 }
 .height{
   height: 80vh;
