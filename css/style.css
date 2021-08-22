@@ -3,7 +3,7 @@
 :root {
   --white: #fff;
   --main: #00aaff;   
-  --second: #1601d4;  
+  --second: #1603c5;  
   --success: #45bd32;
   --blue: #273868;  
   --error: #fd4144;  
@@ -26,15 +26,14 @@ body {
   background-color: var(--black);
 }
 .second-background{
-  background-color: var(--second);
+  background-color: var(--blue);
 }
 .dark-background{
   background-color: var(--dark);
 }
 .navbar-light,
 .bg-light {
-  background-color: var(--blue) !important;
-  font-weight: 500;  
+  background-color: var(--blue) !important; 
   padding: 0;
 }
 li {
@@ -112,6 +111,10 @@ a:hover {
 .driver-image{
   box-shadow: 20px -20px var(--second);  
 }
+.sub-hero h3{
+  color: var(--second);
+  font-weight: 600;
+}
 .main{
   background-color: var(--dark);
   color: var(--white);  
@@ -130,8 +133,13 @@ a:hover {
   color: var(--white)!important;
   border-radius:0;
 }
-.frequently-ask-question{
- 
+#about-me h2{
+  color: var(--second);
+  font-weight: 700;
+  border-bottom: 5px solid var(--second);
+  margin: 50px 0;
+}
+.frequently-ask-question{ 
   color: var(--black);
 }
 .frequently-ask-question h1{
@@ -196,6 +204,9 @@ a:hover {
 }
 .social-icons{
   border-top: 1px solid var(--white);
+}
+.modal-btn{
+  width: 100%;
 }
 @media (max-width: 768px) {
   .sub-hero img{
