@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Play&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nunito&family=Open+Sans:ital@1&family=Prompt&display=swap');
+
 :root {
   --white: #fff;
-  --main: #00aaff;  
-  --second: #3c698d;  
+  --main: #00aaff;   
+  --second: #1601d4;  
   --success: #45bd32;
-  --blue: #273868;
+  --blue: #273868;  
   --error: #fd4144;  
   --dark: #1e2433;
   --hero: #1e2433;
-  --black: #000; 
-  --yellow: #f8fc24;
-  --lighter: #e6e4e4;
+  --black: #000;   
+  --lighter: #eeeded;
   --footer: #110f0f;
   --trasparent:#1e2433bb;
 }
@@ -33,15 +33,16 @@ body {
 }
 .navbar-light,
 .bg-light {
-  background-color: var(--dark) !important;
+  background-color: var(--blue) !important;
   font-weight: 500;  
+  padding: 0;
 }
 li {
   list-style: none;
 }
 .website-name{
-  font-weight: 700;
-  color: var(--yellow)!important;
+  font-weight: 500;
+  color: var(--white)!important;
 }
 .font {
   color: var(--white);
@@ -56,12 +57,7 @@ li {
   border-radius: 5px;  
 }
 .background-image{
-  background-image:url(/img/truck-1181063_1920.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 40vh;
-  border-bottom: 10px solid var(--dark);    
+  background-color: var(--dark);   
 }
 a {
   text-decoration: none;
@@ -70,107 +66,92 @@ a {
 a:hover {
   font-weight: bold;
 }
+#hero{
+  background-color: var(--dark);
+}
 #hero h1{
   color: var(--white);
-  font-size: 80px;
-  /* text-shadow: 1px 2px 5px var(--black); */
-  font-weight: 900;
-  
+  font-size: 80px;  
+  font-weight: 700;  
+  z-index: 1; 
+  position: relative;
 }
-#hero h5{
-  font-size: 30px;
+#hero h2{
+  color: var(--white);  
+  font-weight: 600;  
+  z-index: 1;  
+  position: relative;
 }
 .row-hero{
-  background-image: url(/img/Group\ 5.png);  
+  background-image:url(/img/transport-hero.jpg);  
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  border-bottom: 10px solid var(--dark);   
-  height: 100%;
-}
-.text{
-  color: var(--white);
-  position: absolute;
-  z-index: 1;    
+  background-repeat: no-repeat;
+  height: 80vh;  
 }
 #hero i{
   margin-top:100px;
-  color: var(--yellow);
+  color: var(--white);
   position: absolute;
   z-index: 1; 
-  font-size: 30px;  
-  
+  font-size: 30px;      
 }
 .height{
   height: 80vh;
 }
+.color-over-lay{
+  width: 100%;
+  height: 80%;
+  background-color: rgb(13, 1, 34);
+  opacity: .8;
+  position: absolute;
+}
 .sub-hero img{
   width: 60%;
 }
-.span-name{
-  color: var(--purple); 
-  border-radius: 30px;
-  padding: 0 10px;
-  font-weight: 800;
+.driver-image{
+  box-shadow: 20px -20px var(--second);  
 }
 .main{
   background-color: var(--dark);
-  color: var(--white);
+  color: var(--white);  
+}
+.main h4{
+  font-weight: 500;
 }
 .main i{
   font-size: 30px;
-  color: var(--main);
+  color: var(--second);
 }
 .main a{
-  background-color: var(--second)!important; 
-  border: 0;
-  color: var(--dark)!important;
-}
-.tools h1{
-  color: var(--blue);
-  font-weight: 800;  
-}
-.card{
-  background-color: var(--second); 
-  border:0;
-  border-radius: 0;  
-  padding: 0;
-  margin: 1px;   
-}
-.card-heading{
-  background-color: var(--blue);  
-  color: var(--white); 
-  width: 100%;
-  margin: 0;
-  padding: 10px;
-}
-.card-body{
-  color: var(--white);
-  font-weight: 500;  
-}
-.tools button{
-  background-color: var(--blue);
-  border: 0;
+  background-color: transparent!important; 
+  border:none;
+  border-bottom: 1px solid var(--white);
+  color: var(--white)!important;
+  border-radius:0;
 }
 .frequently-ask-question{
-  background-color: var(--dark);
-  color: var(--white);
+ 
+  color: var(--black);
 }
-.frequently-ask-question h2{
-  font-weight: 800!important;
+.frequently-ask-question h1{
+  font-weight: 900!important;
+  color: var(--second);
+
 }
 .frequently-ask-question .btn{
-  background-color: var(--blue)!important;
+  background-color: var(--second)!important;
   border: 0;
 }
 .contact{
-  background-color: var(--white);  
+  background-color: var(--dark);  
   padding: 40px!important;
   border-radius: 5px;    
   box-shadow: 2px 2px 20px var(--lighter);
 }
 .contact h3{
-  color: var(--blue);
+  color: var(--white);
+  font-weight: 600;
 }
 .contact .form-control{
   border-radius:0;
@@ -182,15 +163,14 @@ a:hover {
   background: transparent;  
 }
 .input-fields{
-  width: 80%; 
+  width: 50%; 
   padding:6px; 
   margin: 50px!important;
 }
-.contact-btn {
-  width: 100%; 
-  background-color: var(--blue); 
+.contact-btn {  
+  background-color: var(--second); 
   border: 0;
-  color: var(--white);
+  color: var(--lighter);
 }
 .btn-tip-modal{
   border-radius: 10px;
@@ -199,9 +179,10 @@ a:hover {
   background-color: var(--trasparent);   
 }
 .footer {
-  background-color: var(--footer);     
+  background-color: var(--blue);  
+  color: var(--black);
 }
-.footer h2{
+.footer h2, h4{
   color: var(--white);
 }
 .footer a{
@@ -209,6 +190,12 @@ a:hover {
 }
 .footer i{
   font-size: 20px;
+  border: 1px solid var(--white);
+  padding: 10px;
+  border-radius: 30px;
+}
+.social-icons{
+  border-top: 1px solid var(--white);
 }
 @media (max-width: 768px) {
   .sub-hero img{
