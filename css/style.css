@@ -109,10 +109,10 @@ a:hover {
   width: 60%;
 }
 .driver-image{
-  box-shadow: 20px -20px var(--blue);  
+  box-shadow: 20px -20px var(--second);  
 }
 .sub-hero h3{
-  color: var(--blue);
+  color: var(--second);
   font-weight: 600;
 }
 .main{
@@ -134,21 +134,21 @@ a:hover {
   border-radius:0;
 }
 #about-me h2{
-  color: var(--blue);
+  color: var(--second);
   font-weight: 700;
-  border-bottom: 5px solid var(--blue);
+  border-bottom: 5px solid var(--second);
   margin: 50px 0;
 }
 .frequently-ask-question{ 
   color: var(--black);
 }
 .frequently-ask-question h1{
-  font-weight: 700!important;
-  color: var(--blue);
+  font-weight: 900!important;
+  color: var(--second);
 
 }
 .frequently-ask-question .btn{
-  background-color: var(--blue)!important;
+  background-color: var(--second)!important;
   border: 0;
 }
 .contact{
@@ -205,6 +205,9 @@ a:hover {
 .social-icons{
   border-top: 1px solid var(--white);
 }
+.modal-btn{
+  width: 100%;
+}
 @media (max-width: 768px) {
   .sub-hero img{
     width: 70%;
@@ -227,12 +230,12 @@ a:hover {
     width: 100%;
   }   
 }
-@media (max-width: 325px) {
+@media (max-width: 320px) {
   .sub-hero{
     padding: 0 !important;
     margin: 0 !important;
   }
   .sub-hero img{
     width: 90%;   
-  }      
+  }  
 }
