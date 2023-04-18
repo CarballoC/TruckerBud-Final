@@ -108,6 +108,13 @@ a:hover {
 .sub-hero img{
   width: 60%;
 }
+.sub-hero h1{
+  color: var(--main);
+  font-size: 80px;  
+  font-weight: 700;   
+  position: relative;
+  text-shadow: 2px 6px var(--blue);
+}
 .driver-image{
   box-shadow: 20px -20px var(--second);  
 }
